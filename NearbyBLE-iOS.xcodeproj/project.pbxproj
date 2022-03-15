@@ -19,30 +19,10 @@
 		858583F127B8BA480031D75E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858583F027B8BA480031D75E /* Preview Assets.xcassets */; };
 		858583F327B8BA480031D75E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858583F227B8BA480031D75E /* Persistence.swift */; };
 		858583F627B8BA480031D75E /* NearbyBLE_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 858583F427B8BA480031D75E /* NearbyBLE_iOS.xcdatamodeld */; };
-		8585840027B8BA480031D75E /* NearbyBLE_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858583FF27B8BA480031D75E /* NearbyBLE_iOSTests.swift */; };
-		8585840A27B8BA480031D75E /* NearbyBLE_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585840927B8BA480031D75E /* NearbyBLE_iOSUITests.swift */; };
-		8585840C27B8BA480031D75E /* NearbyBLE_iOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585840B27B8BA480031D75E /* NearbyBLE_iOSUITestsLaunchTests.swift */; };
 		8585841927B8C6830031D75E /* BLEDeviceTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585841827B8C6830031D75E /* BLEDeviceTile.swift */; };
 		8585841F27B8CD0D0031D75E /* BLEDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585841E27B8CD0D0031D75E /* BLEDevice.swift */; };
 		8585842327B8D5380031D75E /* BLEDevicesWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8585842227B8D5380031D75E /* BLEDevicesWidget.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		858583FC27B8BA480031D75E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 858583DE27B8BA470031D75E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 858583E527B8BA470031D75E;
-			remoteInfo = "NearbyBLE-iOS";
-		};
-		8585840627B8BA480031D75E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 858583DE27B8BA470031D75E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 858583E527B8BA470031D75E;
-			remoteInfo = "NearbyBLE-iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8552C3A027BAAC90001F1D82 /* BLEClientViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEClientViewModel.swift; sourceTree = "<group>"; };
@@ -59,11 +39,6 @@
 		858583F027B8BA480031D75E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		858583F227B8BA480031D75E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		858583F527B8BA480031D75E /* NearbyBLE_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NearbyBLE_iOS.xcdatamodel; sourceTree = "<group>"; };
-		858583FB27B8BA480031D75E /* NearbyBLE-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NearbyBLE-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		858583FF27B8BA480031D75E /* NearbyBLE_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyBLE_iOSTests.swift; sourceTree = "<group>"; };
-		8585840527B8BA480031D75E /* NearbyBLE-iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NearbyBLE-iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8585840927B8BA480031D75E /* NearbyBLE_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyBLE_iOSUITests.swift; sourceTree = "<group>"; };
-		8585840B27B8BA480031D75E /* NearbyBLE_iOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyBLE_iOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8585841827B8C6830031D75E /* BLEDeviceTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDeviceTile.swift; sourceTree = "<group>"; };
 		8585841E27B8CD0D0031D75E /* BLEDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDevice.swift; sourceTree = "<group>"; };
 		8585842227B8D5380031D75E /* BLEDevicesWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEDevicesWidget.swift; sourceTree = "<group>"; };
@@ -71,20 +46,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		858583E327B8BA470031D75E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		858583F827B8BA480031D75E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8585840227B8BA480031D75E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -118,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				858583E827B8BA470031D75E /* NearbyBLE-iOS */,
-				858583FE27B8BA480031D75E /* NearbyBLE-iOSTests */,
-				8585840827B8BA480031D75E /* NearbyBLE-iOSUITests */,
 				858583E727B8BA470031D75E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -128,8 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				858583E627B8BA470031D75E /* NearbyBLE-iOS.app */,
-				858583FB27B8BA480031D75E /* NearbyBLE-iOSTests.xctest */,
-				8585840527B8BA480031D75E /* NearbyBLE-iOSUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,23 +114,6 @@
 				858583F027B8BA480031D75E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		858583FE27B8BA480031D75E /* NearbyBLE-iOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				858583FF27B8BA480031D75E /* NearbyBLE_iOSTests.swift */,
-			);
-			path = "NearbyBLE-iOSTests";
-			sourceTree = "<group>";
-		};
-		8585840827B8BA480031D75E /* NearbyBLE-iOSUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8585840927B8BA480031D75E /* NearbyBLE_iOSUITests.swift */,
-				8585840B27B8BA480031D75E /* NearbyBLE_iOSUITestsLaunchTests.swift */,
-			);
-			path = "NearbyBLE-iOSUITests";
 			sourceTree = "<group>";
 		};
 		8585841A27B8C6900031D75E /* Views */ = {
@@ -214,42 +154,6 @@
 			productReference = 858583E627B8BA470031D75E /* NearbyBLE-iOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		858583FA27B8BA480031D75E /* NearbyBLE-iOSTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8585841227B8BA480031D75E /* Build configuration list for PBXNativeTarget "NearbyBLE-iOSTests" */;
-			buildPhases = (
-				858583F727B8BA480031D75E /* Sources */,
-				858583F827B8BA480031D75E /* Frameworks */,
-				858583F927B8BA480031D75E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				858583FD27B8BA480031D75E /* PBXTargetDependency */,
-			);
-			name = "NearbyBLE-iOSTests";
-			productName = "NearbyBLE-iOSTests";
-			productReference = 858583FB27B8BA480031D75E /* NearbyBLE-iOSTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		8585840427B8BA480031D75E /* NearbyBLE-iOSUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8585841527B8BA480031D75E /* Build configuration list for PBXNativeTarget "NearbyBLE-iOSUITests" */;
-			buildPhases = (
-				8585840127B8BA480031D75E /* Sources */,
-				8585840227B8BA480031D75E /* Frameworks */,
-				8585840327B8BA480031D75E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8585840727B8BA480031D75E /* PBXTargetDependency */,
-			);
-			name = "NearbyBLE-iOSUITests";
-			productName = "NearbyBLE-iOSUITests";
-			productReference = 8585840527B8BA480031D75E /* NearbyBLE-iOSUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -262,14 +166,6 @@
 				TargetAttributes = {
 					858583E527B8BA470031D75E = {
 						CreatedOnToolsVersion = 13.2.1;
-					};
-					858583FA27B8BA480031D75E = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 858583E527B8BA470031D75E;
-					};
-					8585840427B8BA480031D75E = {
-						CreatedOnToolsVersion = 13.2.1;
-						TestTargetID = 858583E527B8BA470031D75E;
 					};
 				};
 			};
@@ -287,8 +183,6 @@
 			projectRoot = "";
 			targets = (
 				858583E527B8BA470031D75E /* NearbyBLE-iOS */,
-				858583FA27B8BA480031D75E /* NearbyBLE-iOSTests */,
-				8585840427B8BA480031D75E /* NearbyBLE-iOSUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -300,20 +194,6 @@
 			files = (
 				858583F127B8BA480031D75E /* Preview Assets.xcassets in Resources */,
 				858583EE27B8BA480031D75E /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		858583F927B8BA480031D75E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8585840327B8BA480031D75E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,37 +220,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		858583F727B8BA480031D75E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8585840027B8BA480031D75E /* NearbyBLE_iOSTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8585840127B8BA480031D75E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8585840A27B8BA480031D75E /* NearbyBLE_iOSUITests.swift in Sources */,
-				8585840C27B8BA480031D75E /* NearbyBLE_iOSUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		858583FD27B8BA480031D75E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 858583E527B8BA470031D75E /* NearbyBLE-iOS */;
-			targetProxy = 858583FC27B8BA480031D75E /* PBXContainerItemProxy */;
-		};
-		8585840727B8BA480031D75E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 858583E527B8BA470031D75E /* NearbyBLE-iOS */;
-			targetProxy = 8585840627B8BA480031D75E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8585840D27B8BA480031D75E /* Debug */ = {
@@ -561,82 +411,6 @@
 			};
 			name = Release;
 		};
-		8585841327B8BA480031D75E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QS2T88F866;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NearbyBLE-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyBLE-iOS.app/NearbyBLE-iOS";
-			};
-			name = Debug;
-		};
-		8585841427B8BA480031D75E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QS2T88F866;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NearbyBLE-iOSTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NearbyBLE-iOS.app/NearbyBLE-iOS";
-			};
-			name = Release;
-		};
-		8585841627B8BA480031D75E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QS2T88F866;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NearbyBLE-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NearbyBLE-iOS";
-			};
-			name = Debug;
-		};
-		8585841727B8BA480031D75E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QS2T88F866;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.miraka.NearbyBLE-iOSUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "NearbyBLE-iOS";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -654,24 +428,6 @@
 			buildConfigurations = (
 				8585841027B8BA480031D75E /* Debug */,
 				8585841127B8BA480031D75E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8585841227B8BA480031D75E /* Build configuration list for PBXNativeTarget "NearbyBLE-iOSTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8585841327B8BA480031D75E /* Debug */,
-				8585841427B8BA480031D75E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8585841527B8BA480031D75E /* Build configuration list for PBXNativeTarget "NearbyBLE-iOSUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8585841627B8BA480031D75E /* Debug */,
-				8585841727B8BA480031D75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
